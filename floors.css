@@ -39,7 +39,7 @@ body {
     var(--bush) 0 1.15vmin,
     #fff0 calc(1.15vmin + 1px) 100%
   );
-  --glass: 337deg;
+  --glass: 200deg;
   --luz1: hsl(var(--glass) 60% 50% / 60%);
   --luz2: hsl(var(--glass) 54% 32%);
   --luz3: hsl(var(--glass) 54% 25%);
@@ -53,12 +53,6 @@ body {
 }
 
 @keyframes start-glass {
-  0% {
-    --glass: 200deg;
-  }
-  100% {
-    --glass: 337deg;
-  }
 }
 
 .content:before {
